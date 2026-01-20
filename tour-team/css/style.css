@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+.container {
+	max-width: 1200px !important;
+}
+
+.team_wrapper {
+	padding: 80px 0;
+}
+
+.team_wrapper .team_head {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.team_wrapper .team_head span {
+    display: block;
+    color: #4d40ca;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.team_wrapper .team_head h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+
+.team_wrapper .team_head p {
+    color: #626262;
+    font-size: 18px;
+}
+
+.team_wrapper .team_item {
+    text-align: center;
+    margin-top: 60px;
+    transition: 0.4s all ease-in-out;
+}
+
+.team_wrapper .team_item:hover {
+	  transform: translateY(-10px);
+}
+
+.team_wrapper .team_item figure img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.team_wrapper .team_item .team_content {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 10px 9px 106.6px 55px rgba(5, 6, 60, 0.04);
+    text-align: center;
+    padding: 100px 15px 15px 15px;
+    margin-top: -80px;
+}
+
+.team_wrapper .team_item .team_content .content {
+    border: 1px dashed #000000;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.team_wrapper .team_item .team_content p {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #d62929;
+    margin: 0;
+}
+
+.team_wrapper .team_item .team_content h2 {
+    font-size: 25px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.team_wrapper .team_item .team_content h2 a {
+    color: #000000;
+}
+
+.team_wrapper .team_item .team_content h2 a:hover {
+	  text-decoration: none;
+}
+
+.team_wrapper .team_item .team_content ul {
+	list-style: none;
+}
+
+.team_wrapper .team_item .team_content ul li {
+	display: inline-block;
+}
+
+.team_wrapper .team_item .team_content ul li a {
+    border: 1px solid #000000;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #000000;
+    font-size: 14px;
+    margin: 10px 3px 0 3px;
+    transition: 0.4s all ease-in-out;
+}
+
+.team_wrapper .team_item .team_content ul li a:hover {
+	background: #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) { 
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+		
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+}
